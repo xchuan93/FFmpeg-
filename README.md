@@ -1,4 +1,4 @@
-# FFmpeg-
+# FFmpeg-ios
 # Mac配置FFmpeg环境
 # 1 安装homebrew
   打开终端输入以下命令行：
@@ -44,3 +44,5 @@
    2）ffmpeg -i /temp.mp4 -f flv -y /temp.flv 这条指令是输入一个视频文件,将文件转码为h264编码格式的flv文件,-f参数是指定目标格式
 
    3）具体FFmpeg能使用哪些指令可以参考官方文档或如下博客:http://www.cnblogs.com/wainiwann/p/4128154.html
+ 
+ # demo主要介绍使用命令行做音视频解码操作，和m3u8文件下载
